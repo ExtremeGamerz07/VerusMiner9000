@@ -1,4 +1,4 @@
-apply plugin: 'com.android.application'
+papply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 android {
@@ -12,7 +12,7 @@ android {
 
     defaultConfig {
         applicationId "shmutalov.verusminer9000"
-        minSdkVersion 22
+        minSdkVersion 21
         targetSdkVersion 28 // to avoid an error 13 when running exe in assets folder (sdk 29 gives the error)
         versionCode 7
         versionName "0.0.14"
